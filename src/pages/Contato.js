@@ -1,5 +1,6 @@
 import React from 'react';
 import { Row, Col } from 'react-materialize';
+import { FaleComigo } from '../components';
 
 class Contato extends React.Component {
   render() {
@@ -9,7 +10,7 @@ class Contato extends React.Component {
           <h1>Contato</h1>
         </Col>
         <Col s={6}>
-          <h4>Fale comigo</h4>
+          <FaleComigo />
         </Col>
         <Col s={6}>
           <h4>Venha me encontrar</h4>
