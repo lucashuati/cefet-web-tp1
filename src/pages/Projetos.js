@@ -4,6 +4,11 @@ import {
   CardTitle,
 } from 'react-materialize';
 import Sample from '../assets/images/sample-1.jpg';
+import educatLogo from '../assets/images/educat-logo.png';
+import base2Logo from '../assets/images/base2-logo.png';
+import encimatLogo from '../assets/images/encimat-logo.jpeg';
+import gccLogo from '../assets/images/gcc-logo.jpeg';
+import jwLogo from '../assets/images/jw-logo.jpeg';
 
 class Projetos extends React.Component {
   constructor(props) {
@@ -12,27 +17,27 @@ class Projetos extends React.Component {
       projects: [
         {
           title: 'Faculdade',
-          img: null,
+          img: gccLogo,
           description: 'Maratona de Progamação - GCC',
         },
         {
           title: 'Faculdade',
-          img: null,
+          img: encimatLogo,
           description: 'Projeto de Extensão - ENCIMAT',
         },
         {
           title: 'Profissional',
-          img: null,
+          img: jwLogo,
           description: 'WebDesigner - JW Perícia',
         },
         {
           title: 'Profissional',
-          img: null,
+          img: base2Logo,
           description: 'Estágio de Teste - BASE 2',
         },
         {
           title: 'Profissional',
-          img: null,
+          img: educatLogo,
           description: 'Estagio Full-Stack - EDUCAT',
         },
       ],
@@ -44,7 +49,7 @@ class Projetos extends React.Component {
     return projects.map(project => (
       <Card
         className="small col m4"
-        header={<CardTitle image={Sample}>{ project.title }</CardTitle>}
+        header={<CardTitle image={project.img}></CardTitle>}
       >
         { project.description }
       </Card>
