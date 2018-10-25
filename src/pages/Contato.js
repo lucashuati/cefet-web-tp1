@@ -15,26 +15,28 @@ const MyMapComponent = withScriptjs(withGoogleMap(() => (
 class Contato extends React.Component {
   render() {
     return (
-      <Row>
-        <Col s={12}>
-          <h1>Contato</h1>
-        </Col>
-        <Col s={6}>
-          <FaleComigo />
-        </Col>
-        <Col s={6}>
-          <h4>Venha me encontrar</h4>
-          <iframe
-            title="MAPS"
-            width="600"
-            height="450"
-            frameBorder="0"
-            style={{ border: 0 }}
-            src="https://www.google.com/maps/embed/v1/undefined?origin=Chicago,IL&q=http://localhost:5000&destination=Los+Angeles,CA&key="
-            allowFullScreen
-          />
-        </Col>
-      </Row>
+      <div className="container">
+        <Row>
+          <Col s={12}>
+            <h1>Contato</h1>
+          </Col>
+          <Col s={6}>
+            <FaleComigo />
+          </Col>
+          <Col s={6}>
+            <h4>Venha me encontrar</h4>
+            <iframe
+              title="MAPS"
+              width="600"
+              height="450"
+              frameBorder="0"
+              style={{ border: 0 }}
+              src="https://www.google.com/maps/embed/v1/undefined?origin=Chicago,IL&q=http://localhost:5000&destination=Los+Angeles,CA&key="
+              allowFullScreen
+            />
+          </Col>
+        </Row>
+      </div>
     );
   }
 }

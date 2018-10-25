@@ -2,8 +2,6 @@ import React from 'react';
 import {
   Card,
   CardTitle,
-  Button,
-  Modal,
 } from 'react-materialize';
 import Sample from '../assets/images/sample-1.jpg';
 

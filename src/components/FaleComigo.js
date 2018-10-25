@@ -38,21 +38,7 @@ class FaleComigo extends React.Component {
           key: 'twitter',
         },
       ],
-      mapsApi: require('@google/maps').createClient({
-        key: '',
-      }),
     };
-  }
-
-  componentDidMount() {
-    const { mapsApi } = this.state;
-    mapsApi.geocode({
-      address: '1600 Amphitheatre Parkway, Mountain View, CA'
-    }, (err, response) => {
-      if (!err) {
-        console.log(response.json.results);
-      }
-    });
   }
 
   renderInfos() {

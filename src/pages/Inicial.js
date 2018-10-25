@@ -30,7 +30,6 @@ class Inicial extends React.Component {
               className="blue-grey darken-1 small"
               textClassName="white-text"
               title="Veja meus projetos"
-              actions={[<a href='#'>This is a link</a>]}
             >
               Projetos diversos, utilizando as ferramentas mais modernas do mercado.
             </Card>
@@ -40,7 +39,6 @@ class Inicial extends React.Component {
               className="blue-grey darken-1 small"
               textClassName="white-text"
               title="Avalie meu curriculo"
-              actions={[<a href='#'>This is a link</a>]}
             >
               Curriculo atualizado, visando sempre as melhores ferramentas e tecnologias.
             </Card>
@@ -50,7 +48,6 @@ class Inicial extends React.Component {
               className="blue-grey darken-1 small"
               textClassName="white-text"
               title="Fale Comigo"
-              actions={[<a href='#'>This is a link</a>]}
             >
               Gostou do que viu ? Entre em contato comigo.
             </Card>
