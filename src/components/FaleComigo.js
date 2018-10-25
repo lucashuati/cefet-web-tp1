@@ -23,17 +23,17 @@ class FaleComigo extends React.Component {
       ],
       socialMedias: [
         {
-          link: 'github.com',
+          link: 'http://github.com',
           logo: <i className="fab fa-github" />,
           key: 'github',
         },
         {
-          link: 'linkedin.com',
+          link: 'http://linkedin.com',
           logo: <i className="fab fa-linkedin-in" />,
           key: 'linkedin',
         },
         {
-          link: 'twitter.com',
+          link: 'http://twitter.com',
           logo: <i className="fab fa-twitter" />,
           key: 'twitter',
         },
