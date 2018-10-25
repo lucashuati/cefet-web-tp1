@@ -2,6 +2,7 @@
   "name": "tmp",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://lucashuati.github.io/cefet-web-tp1/",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.3.1",
     "@fortawesome/fontawesome-svg-core": "^1.2.4",
@@ -10,6 +11,7 @@
     "@google/maps": "^0.5.5",
     "axios": "^0.18.0",
     "d3plus-react": "^0.5.0",
+    "gh-pages": "^2.0.1",
     "materialize-css": "^1.0.0-rc.2",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
@@ -21,6 +23,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "devDependencies": {

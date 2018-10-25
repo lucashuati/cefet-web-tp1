@@ -13,54 +13,29 @@ class Projetos extends React.Component {
     this.state = {
       projects: [
         {
-          title: 'Maratona de Progamação - GCC',
+          title: 'Faculdade',
           img: null,
-          description: 'gdhasjda',
-          imgs: [
-            Sample,
-            Sample,
-            Sample,
-          ],
+          description: 'Maratona de Progamação - GCC',
         },
         {
-          title: 'Projeto de Extensão - ENCIMAT',
+          title: 'Faculdade',
           img: null,
-          description: 'gdhasjda',
-          imgs: [
-            Sample,
-            Sample,
-            Sample,
-          ],
+          description: 'Projeto de Extensão - ENCIMAT',
         },
         {
-          title: 'WebDesigner - JW Perícia',
+          title: 'Profissional',
           img: null,
-          description: 'gdhasjda',
-          imgs: [
-            Sample,
-            Sample,
-            Sample,
-          ],
+          description: 'WebDesigner - JW Perícia',
         },
         {
-          title: 'Estágio de Teste - BASE 2',
+          title: 'Profissional',
           img: null,
-          description: 'gdhasjda',
-          imgs: [
-            Sample,
-            Sample,
-            Sample,
-          ],
+          description: 'Estágio de Teste - BASE 2',
         },
         {
-          title: 'Estagio Full-Stack - EDUCAT',
+          title: 'Profissional',
           img: null,
-          description: 'gdhasjda',
-          imgs: [
-            Sample,
-            Sample,
-            Sample,
-          ],
+          description: 'Estagio Full-Stack - EDUCAT',
         },
       ],
     };
@@ -70,20 +45,8 @@ class Projetos extends React.Component {
     const { projects } = this.state;
     return projects.map(project => (
       <Card
-        className="small"
+        className="small col m4"
         header={<CardTitle image={Sample}>{ project.title }</CardTitle>}
-        actions={[
-          <Modal
-            header={project.title}
-            trigger={<Button waves="light" type="button">Veja mais</Button>}
-          >
-            {project.imgs.map(img => (
-              <div className="col s3 m3 l3 xl3">
-                <img className="responsive-img" src={img} alt="Project" />
-              </div>
-            ))}
-          </Modal>,
-        ]}
       >
         { project.description }
       </Card>
@@ -95,7 +58,9 @@ class Projetos extends React.Component {
       <React.Fragment>
         <div className="container">
           <h2>Projetos</h2>
-          {this.renderProjects()}
+          <div className="row">
+            {this.renderProjects()}
+          </div>
         </div>
       </React.Fragment>
     );
