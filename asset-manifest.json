@@ -1,9 +1,14 @@
 {
-  "main.css": "static/css/main.65027555.css",
-  "main.css.map": "static/css/main.65027555.css.map",
-  "main.js": "static/js/main.fd375064.js",
-  "main.js.map": "static/js/main.fd375064.js.map",
+  "main.css": "static/css/main.8e925142.css",
+  "main.css.map": "static/css/main.8e925142.css.map",
+  "main.js": "static/js/main.af769252.js",
+  "main.js.map": "static/js/main.af769252.js.map",
+  "static/media/base2-logo.png": "static/media/base2-logo.4a9960b9.png",
   "static/media/curriculo.pdf": "static/media/curriculo.caec175c.pdf",
+  "static/media/educat-logo.png": "static/media/educat-logo.d02909c3.png",
+  "static/media/encimat-logo.jpeg": "static/media/encimat-logo.cacaaf89.jpeg",
+  "static/media/gcc-logo.jpeg": "static/media/gcc-logo.d13bfcb5.jpeg",
+  "static/media/jw-logo.jpeg": "static/media/jw-logo.9ae4dca1.jpeg",
   "static/media/logo.png": "static/media/logo.6a222afe.png",
   "static/media/sample-1.jpg": "static/media/sample-1.9206b4a6.jpg"
 }
